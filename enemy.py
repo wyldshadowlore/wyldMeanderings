@@ -8,8 +8,8 @@ class monster:
 		self.defense = defense
 
 enemies = [
-('ogre', r.randrange(15 ,20 ,1), 10, 10),
-('imp', r.randrange(2, 7, 1), 2, 1),
-('wolf', r.randrange(5, 9, 1), 1, 4),
-('lore spider', r.randrange(1, 25, 1), r.randrange(0, 10, 2), r.randrange(0, 10, 2)),
+('ogre', (15,20,1), (8,10,1), (8,10,1) ),
+('imp', (2,7,1), (1,2,1), (1,2,1) ),
+('wolf', (5,9,1), (1,2,1), (3,4,1) ),
+('lore spider', (1,25,1), (1,11,2), (1,11,2) ),
 ]
